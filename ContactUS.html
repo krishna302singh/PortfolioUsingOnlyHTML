@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact page</title>
+        <link rel="shortcut icon" href="Resource\RedKIcon.png" type="image/x-icon"/>
+        <meta name="author" content="Krishna Singh"/>
+        <meta name="description" content="This first Page of my Portfolio."/>
+    </head>
+    <body>
+        <h1 style="color:red">Krishna Singh</h1>
+       <hr/>
+       <a href="MYWork.html">My Work</a>&nbsp;&nbsp;<a href="ContactUS.html">Contact us</a>&nbsp;&nbsp;<a href="MyPortfolio.html">Home</a>
+       <hr/>
+       <h2>To contact me, Please fill the form:</h2>
+       <label for="name">Name:</label>
+       <input type="text" pattern="[a-zA-Z]+" maxlength="20" placeholder="Your Name" required/><br/><br/>
+       <label for="email">Email:</label>
+       <input type="text" maxlength="50" placeholder="Your Email" required/><br/><br/>
+       <label for="message">Message:</label>
+       <textarea rows="2" maxlength="300" required></textarea><br/><br/>
+       <label for="country">Country:</label>
+       <select>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="US">USA</option>
+        <option value="England">England</option>
+        <option value="France">France</option>
+       </select><br/><br/>
+       <label for="gender">Gender:</label>
+       <input type="radio" name="gender" checked required/><span>Male</span>
+       <input type="radio" name="gender" required/><span>Female</span>
+       <input type="radio" name="gender" required/><span>Other</span><br/><br/>
+       <button style="background-color:rgb(199, 196, 196)">Submit</button>
+       <button style="background-color:rgb(199, 196, 196)">Reset</button>
+    </body>
+</html>
